@@ -45,7 +45,6 @@ public class ContaDao implements Dao<Conta> {
 	    stmt.execute(sqlCreate);
 	}
 	
-	
 	private Conta getContaFromRS(ResultSet rs) throws SQLException
     {
 		Conta conta = new Conta();

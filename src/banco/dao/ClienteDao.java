@@ -49,7 +49,6 @@ public class ClienteDao implements Dao<Cliente> {
 	    close(conn, stmt, null);
 	}
 	
-	
 	private Cliente getClienteFromRS(ResultSet rs) throws SQLException
     {
 		Cliente cliente = new Cliente();
